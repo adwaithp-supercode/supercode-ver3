@@ -1,0 +1,31 @@
+.experience {
+    position: relative;
+    width: 100%;
+}
+
+.modelStage {
+    position: absolute;
+    top: 55vh;
+    left: 50%;
+    width: 45%;
+    height: 500px;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    pointer-events: auto;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .modelStage {
+        width: 55%;
+        height: 420px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .modelStage {
+        width: 90%;
+        height: 380px;
+    }
+}

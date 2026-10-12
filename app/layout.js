@@ -18,7 +18,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+      <head>
+        <link href="https://db.onlinewebfonts.com/c/9faa25f84b21782355e0910995a9bdc6?family=PP+Right+Grotesk+Mono+Medium" rel="stylesheet" />
+      </head>
       <body>{children}</body>
     </html>
   );
