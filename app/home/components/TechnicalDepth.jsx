@@ -2,7 +2,7 @@ import styles from "../css/technicalDepth.module.css";
 
 export default function TechnicalDepth({ modelTargetRef }) {
     return (
-        <section className={styles.technicalDepth}>
+        <section className={`${styles.technicalDepth}`}>
             <div className={`container ${styles.content}`}>
 
                 <div className={styles.heading}>
@@ -20,7 +20,7 @@ export default function TechnicalDepth({ modelTargetRef }) {
                     aria-hidden="true"
                 />
 
-                <div className={styles.description}>
+                <div className={`${styles.description}`}>
                     <p>
                         DEVELOPMENT orem ipsum dolor sit amet consectetur. Augue at nisl phasellus nisl ullamcorper at felis. Ut suscipit sit morbi semper lacus lorem urna eu. Semper et eleifend sit gravida euismod turpis. Pellentesque
                     </p>
@@ -30,7 +30,7 @@ export default function TechnicalDepth({ modelTargetRef }) {
                         <span>See work</span>
                     </a>
 
-                    <div >
+                    <div>
                         <img src="/assets/lighthouse-image.png" alt="lighthouse-image" className={styles?.buttonArrow} />
                     </div>
 

@@ -12,9 +12,9 @@
 
 .heroHeading{
     position: absolute;
-        top: 80px;
+        top: 60px;
         /* left: 0; */
-        width: 650px;
+        width: 750px;
         max-width: 65%;
         z-index: 2;
 }
@@ -31,11 +31,11 @@
 .heroHeading h1{
     color: var(--color-1, #000);
         font-family: "PP Right Grotesk", sans-serif;
-        font-size: 80px;
-        font-style: normal;
-        font-weight: 520;
+        font-size: 90px;
+        /* font-style: normal; */
+        font-weight: 500;
         line-height: 90%;
-        letter-spacing: -1.8px;
+        letter-spacing: -3.9px;
         margin: 0;
 }
 
@@ -50,12 +50,12 @@
 .heroDescription p{
     color: var(--color-1, #000);
     font-family: "PP Right Grotesk", sans-serif;
-    font-size: 23px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
     /* 28.8px */
-    letter-spacing: -0.74px;
+    letter-spacing: -1.5px;
 }
 
 

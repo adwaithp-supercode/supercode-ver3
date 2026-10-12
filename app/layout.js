@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
 
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
       <head>
-        <link href="https://db.onlinewebfonts.com/c/9faa25f84b21782355e0910995a9bdc6?family=PP+Right+Grotesk+Mono+Medium" rel="stylesheet" />
+        <link href="https://fonts.cdnfonts.com/css/pp-right-gothic" rel="stylesheet" />
       </head>
       <body>{children}</body>
     </html>
